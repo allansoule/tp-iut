@@ -45,6 +45,7 @@ public class jsonParserTest {
 		
 		//Then
 		Assert.assertEquals(jsonEntree, jsonSortie);
+
 		
 		
 
