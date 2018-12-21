@@ -1,0 +1,17 @@
+entity Devs {
+	nom String
+    prenom String
+    adresse String
+}
+
+entity Entreprise {
+	nom String
+    lieu String
+}
+
+
+
+relationship ManyToOne {
+	Devs to Entreprise
+}
+

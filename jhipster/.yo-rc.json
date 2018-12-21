@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "tpiut.jhipster.tp",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "5.7.1",
+    "applicationType": "monolith",
+    "baseName": "tpiutjhipster",
+    "packageName": "tpiut.jhipster.tp",
+    "packageFolder": "tpiut/jhipster/tp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YjZjNTUxY2MzNjBlNTY0YWYyOTI5ZGE2OTgyYzA2ODBiY2ZmMzcyOTI5YzAyMmNmZGVlYTdlNjdhMjEzODhjNjNiYTZhYmQxMTA0NjMxYTg4ZGFlZTI3NjFkYmFkOWYxYTY1MDY2MWQzN2JiYjNhMjY4MTZkMDY1ZTg1YjcxZGI=",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "fr"
+    ]
+  }
+}

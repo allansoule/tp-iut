@@ -1,0 +1,24 @@
+{
+    "tpiutjhipsterApp": {
+        "devs": {
+            "home": {
+                "title": "Devs",
+                "createLabel": "Créer un nouveau Devs",
+                "createOrEditLabel": "Créer ou éditer un Devs"
+            },
+            "created": "Un nouveau Devs a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Devs avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Devs avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Devs {{ id }} ?"
+            },
+            "detail": {
+                "title": "Devs"
+            },
+            "nom": "Nom",
+            "prenom": "Prenom",
+            "adresse": "Adresse",
+            "entreprise": "Entreprise"
+        }
+    }
+}

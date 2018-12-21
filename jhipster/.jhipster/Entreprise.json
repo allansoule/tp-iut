@@ -1,0 +1,30 @@
+{
+    "name": "Entreprise",
+    "fields": [
+        {
+            "fieldName": "nom",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lieu",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "devs",
+            "otherEntityName": "devs",
+            "otherEntityRelationshipName": "entreprise"
+        }
+    ],
+    "changelogDate": "20181221195839",
+    "entityTableName": "entreprise",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
